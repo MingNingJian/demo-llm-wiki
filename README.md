@@ -9,9 +9,9 @@
 
 图片直链（jsDelivr 加速）：
 
-    https://cdn.jsdelivr.net/gh/MingNingJian/llm-wiki@main/images/<文件名>
+    https://cdn.jsdelivr.net/gh/MingNingJian/demo-llm-wiki@main/images/<文件名>
 
 备用线路：
 
-    https://raw.githack.com/MingNingJian/llm-wiki/main/images/<文件名>
-    https://cdn.statically.io/gh/MingNingJian/llm-wiki/main/images/<文件名>
+    https://raw.githack.com/MingNingJian/demo-llm-wiki/main/images/<文件名>
+    https://cdn.statically.io/gh/MingNingJian/demo-llm-wiki/main/images/<文件名>
