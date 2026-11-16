@@ -10,7 +10,7 @@
 
 | # | 文章 | 主题 | 关键词 | 状态 |
 |---|---|---|---|---|
-| 01 | [多模态原理：从声波到语义，一台 AI 如何"听懂"你说话](articles/01-multimodal-principles.md) | 多模态 / 语音识别 | Fun-ASR、Paraformer、梅尔谱、CIF/CTC、LLM-ASR、GRPO | ✅ 完成 |
+| 01 | [多模态原理：从声波到语义，一台 AI 如何"听懂"你说话](articles/01-multimodal-principles.md) | 多模态 / 语音识别 | Fun-ASR、Paraformer、梅尔谱、CIF/CTC、LLM-ASR、GRPO（含 6 张自绘架构图 + 14 张视频关键帧） | ✅ 完成 |
 | 02 | [LLM Wiki 深度解析：从 RAG、GraphRAG 到大模型知识运行时](articles/02-llm-wiki.md) | 知识运行时 | RAG、GraphRAG、摄取编译、知识治理、生命周期 | ✅ 完成 |
 
 > 规划中：多模态视觉篇（ViT 与图文对齐）、Audio-LLM 评测篇、Agent 记忆篇。欢迎提 Issue 建议选题。
@@ -58,7 +58,7 @@ https://cdn.jsdelivr.net/gh/MingNingJian/demo-llm-wiki@main/<相对路径>
 https://cdn.jsdelivr.net/gh/MingNingJian/demo-llm-wiki@main/images/multimodal/01-fig-01-multimodal-stack.png
 ```
 
-备用线路：raw.githack.com / cdn.statically.io（用法相同，替换域名即可）。
+备用线路：raw.githack.com / cdn.statically.io（用法相同，替换域名即可；部分网络环境可能不通，以 jsDelivr 为准）。
 
 ---
 
