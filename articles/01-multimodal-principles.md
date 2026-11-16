@@ -293,6 +293,10 @@ Paraformer 的解法不是"硬上 NAR"，而是三道保险：
 
 视频讲述的是 2022–2024 年的 FunASR 路线。而 2025 年底，同一团队交付了新一代 **Fun-ASR-Nano-2512**（与视频同名但路线不同）：**把"语言大模型"直接装进 ASR 的解码器**。理解它，你就理解了当下开源语音的最前沿。
 
+![图 3 · 语音识别范式演进：从"流水线"到"端到端"再到"大模型"](../images/multimodal/18-fig-03-paradigm-evolution.png)
+
+*▲ 图 3 自绘。1990s HMM-GMM → 2015 端到端 → 2022 Whisper → 2022-24 Paraformer/FunASR → 2025-26 LLM-ASR*
+
 ### 10.1 Fun-ASR-Nano 长什么样
 
 - **骨架**：音频编码器（Transformer，Nano 版 0.2B）+ 音频适配器（2 层 Transformer）+ **CTC 解码器**（跑在编码器上，给热词纠错提供"底稿"）+ **LLM 解码器**（Nano 版 0.6B）；
@@ -334,10 +338,6 @@ Fun-ASR 技术报告（arXiv:2509.12508）给出的工业测试集 WER 对比（
 | 解决的核心问题 | 工程化 + 速度 | 语义理解 + 幻觉治理 + 长尾场景 |
 
 **一句话：视频讲的是"怎么把 ASR 做快、做便宜"；2025 年之后的主线是"怎么把 ASR 做准、做得懂上下文"。**
-
-![图 3 · 语音识别范式演进：从"流水线"到"端到端"再到"大模型"](../images/multimodal/18-fig-03-paradigm-evolution.png)
-
-*▲ 图 3 自绘。1990s HMM-GMM → 2015 端到端 → 2022 Whisper → 2022-24 Paraformer/FunASR → 2025-26 LLM-ASR*
 
 ---
 
