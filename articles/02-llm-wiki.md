@@ -59,13 +59,13 @@
 | 副作用 | 同一份判断每天重算 | 判断沉淀下来，越用越值钱 |
 
 用一句话记住：**RAG 是"每次现做菜"，LLM Wiki 是"建中央厨房，把半成品标准化"。**
-![图 2 · 同样的综合，发生在不同的时刻](images/01-fig2-rag-vs-wiki.png)
+![图 2 · 同样的综合，发生在不同的时刻](../images/01-fig2-rag-vs-wiki.png)
 
-![k02 · 00:01:00　RAG 查询驱动：现场检索、现场拼块、现场综合，回答完一切归零](images/02-k02_00-01-00.jpg)
+![k02 · 00:01:00　RAG 查询驱动：现场检索、现场拼块、现场综合，回答完一切归零](../images/02-k02_00-01-00.jpg)
 
 *▲ 视频原帧 k02 · 00:01:00　RAG 查询驱动：现场检索、现场拼块、现场综合，回答完一切归零*
 
-![k03 · 00:01:20　LLM Wiki 摄取驱动：编译成结构化页面，成为永久资产](images/03-k03_00-01-20.jpg)
+![k03 · 00:01:20　LLM Wiki 摄取驱动：编译成结构化页面，成为永久资产](../images/03-k03_00-01-20.jpg)
 
 *▲ 视频原帧 k03 · 00:01:20　LLM Wiki 摄取驱动：编译成结构化页面，成为永久资产*
 
@@ -83,7 +83,7 @@
 | 2020 | RAG | 外部知识接入生成 |
 | 2024 | GraphRAG | 全局主题抽取、社区发现、实体关系 |
 | 2026 | LLM Wiki | 摄取时编译 + 长期资产化 |
-![图 0 · 演进主线：知识接入 → 关系建模 → 资产化](images/04-fig0-evolution.png)
+![图 0 · 演进主线：知识接入 → 关系建模 → 资产化](../images/04-fig0-evolution.png)
 
 
 注意：这三者是**叠加（stacked layers）**关系，不是替代关系——见 [8.3](#83-破除误区语料一大就该上-graphrag) 与 [8.4](#84-adaptive-rag按查询类型路由)。
@@ -123,15 +123,15 @@
 
 - 同一份综合判断，Day 1、Day 2、Day 3 每天都要重算一次（检索 ×N、拼块 ×N）
 - **解法：COMPILE ONCE —— 一次编译，反复使用**
-![k07 · 00:02:46　问题1：聊天不留资产（第 18 次对话已经忘了第 17 次的判断）](images/05-k07_00-02-46.jpg)
+![k07 · 00:02:46　问题1：聊天不留资产（第 18 次对话已经忘了第 17 次的判断）](../images/05-k07_00-02-46.jpg)
 
 *▲ 视频原帧 k07 · 00:02:46　问题1：聊天不留资产（第 18 次对话已经忘了第 17 次的判断）*
 
-![k08 · 00:03:10　问题2：传统笔记维护太重，而 LLM 是天生的"知识文员"](images/06-k08_00-03-10.jpg)
+![k08 · 00:03:10　问题2：传统笔记维护太重，而 LLM 是天生的"知识文员"](../images/06-k08_00-03-10.jpg)
 
 *▲ 视频原帧 k08 · 00:03:10　问题2：传统笔记维护太重，而 LLM 是天生的"知识文员"*
 
-![k09 · 00:03:25　问题3：RAG 每次都在重新发现，同一份判断每天重算](images/07-k09_00-03-25.jpg)
+![k09 · 00:03:25　问题3：RAG 每次都在重新发现，同一份判断每天重算](../images/07-k09_00-03-25.jpg)
 
 *▲ 视频原帧 k09 · 00:03:25　问题3：RAG 每次都在重新发现，同一份判断每天重算*
 
@@ -160,17 +160,17 @@ Layer 1  Raw      原始材料层   PDF / 会议录音 / 网页 / 代码目录�
 4. 两条结论矛盾时怎么判？
 
 > 三层不是"三个文件夹"，而是三种**权限**：Raw 只读、Wiki 可写不可随手删、Schema 才是立法机构。
-![图 1 · 三层架构 + 运行控制面](images/08-fig1-architecture.png)
+![图 1 · 三层架构 + 运行控制面](../images/08-fig1-architecture.png)
 
-![k10 · 00:04:00　LAYER 01 Raw：不可变原始材料](images/09-k10_00-04-00.jpg)
+![k10 · 00:04:00　LAYER 01 Raw：不可变原始材料](../images/09-k10_00-04-00.jpg)
 
 *▲ 视频原帧 k10 · 00:04:00　LAYER 01 Raw：不可变原始材料*
 
-![k11 · 00:04:20　LAYER 02 Wiki：LLM 派生的知识层](images/10-k11_00-04-20.jpg)
+![k11 · 00:04:20　LAYER 02 Wiki：LLM 派生的知识层](../images/10-k11_00-04-20.jpg)
 
 *▲ 视频原帧 k11 · 00:04:20　LAYER 02 Wiki：LLM 派生的知识层*
 
-![k12 · 00:04:44　LAYER 03 Schema：行为约束层，定义谁负责什么](images/11-k12_00-04-44.jpg)
+![k12 · 00:04:44　LAYER 03 Schema：行为约束层，定义谁负责什么](../images/11-k12_00-04-44.jpg)
 
 *▲ 视频原帧 k12 · 00:04:44　LAYER 03 Schema：行为约束层，定义谁负责什么*
 
@@ -200,11 +200,11 @@ Layer 1  Raw      原始材料层   PDF / 会议录音 / 网页 / 代码目录�
 
 **关键判断：成熟度不看"有页面"，而看"有运行面板"。**
 在大约 **100 个来源、几百个页面**的规模下，index.md 作为纯文本目录**依然出奇地好用**——不需要一开始就上向量库或图数据库。
-![k14 · 00:05:25　两根支柱：index.md（内容导向）+ log.md（时间导向）](images/12-k14_00-05-25.jpg)
+![k14 · 00:05:25　两根支柱：index.md（内容导向）+ log.md（时间导向）](../images/12-k14_00-05-25.jpg)
 
 *▲ 视频原帧 k14 · 00:05:25　两根支柱：index.md（内容导向）+ log.md（时间导向）*
 
-![k15 · 00:05:46　完整的运行控制面：8 个文件/目录，各有岗位职责](images/13-k15_00-05-46.jpg)
+![k15 · 00:05:46　完整的运行控制面：8 个文件/目录，各有岗位职责](../images/13-k15_00-05-46.jpg)
 
 *▲ 视频原帧 k15 · 00:05:46　完整的运行控制面：8 个文件/目录，各有岗位职责*
 
@@ -232,7 +232,7 @@ Layer 1  Raw      原始材料层   PDF / 会议录音 / 网页 / 代码目录�
 设计要点：
 - **Source 是"引文"，Concept 是"知识"**，二者别混。Source 页回答"这篇说了什么"，Concept 页回答"这件事现在怎么看"。
 - **Gap 页最容易被忽略但最有价值**：它把"我不知道什么"显式化，直接喂给 Research 动作（见 7.4）。
-![k17 · 00:06:46　九种常见页面类型，各有明确的"管什么"](images/14-k17_00-06-46.jpg)
+![k17 · 00:06:46　九种常见页面类型，各有明确的"管什么"](../images/14-k17_00-06-46.jpg)
 
 *▲ 视频原帧 k17 · 00:06:46　九种常见页面类型，各有明确的"管什么"*
 
@@ -261,11 +261,11 @@ updated: 2026-04-15        # 最后更新时间
 - stale 检测（"哪些页 180 天没更新过"）
 - 导出图谱（type + tags + sources → 关系）
 - 结构化查询（confidence < 0.6 且 status=verified 的页有哪些）
-![k18 · 00:07:10　frontmatter 是硬约束，不是装饰品](images/15-k18_00-07-10.jpg)
+![k18 · 00:07:10　frontmatter 是硬约束，不是装饰品](../images/15-k18_00-07-10.jpg)
 
 *▲ 视频原帧 k18 · 00:07:10　frontmatter 是硬约束，不是装饰品*
 
-![k19 · 00:07:24　八个必填字段：type / title / summary / sources / tags / status / confidence / updated](images/16-k19_00-07-24.jpg)
+![k19 · 00:07:24　八个必填字段：type / title / summary / sources / tags / status / confidence / updated](../images/16-k19_00-07-24.jpg)
 
 *▲ 视频原帧 k19 · 00:07:24　八个必填字段：type / title / summary / sources / tags / status / confidence / updated*
 
@@ -284,7 +284,7 @@ inferredParagraphs: [3, 7]   # 哪几段是 LLM 推断，而非原文
 
 价值在于：**哪些是抽取、哪些是推断、哪些有争议，全都显式标记。**
 这是解决"幻觉回写"（第 10 节）最便宜的一道防线。
-![k20 · 00:07:38　llm-wiki-compiler 额外四字段：confidence / provenanceState / contradictedBy / inferredParagraphs](images/17-k20_00-07-38.jpg)
+![k20 · 00:07:38　llm-wiki-compiler 额外四字段：confidence / provenanceState / contradictedBy / inferredParagraphs](../images/17-k20_00-07-38.jpg)
 
 *▲ 视频原帧 k20 · 00:07:38　llm-wiki-compiler 额外四字段：confidence / provenanceState / contradictedBy / inferredParagraphs*
 
@@ -452,13 +452,13 @@ new-source.md (新建)
 
 > **每一步都可独立演化、可缓存、可审计。** 这是"八步"而不是"一个大 prompt"的核心原因：
 > 单步失败可重试、步骤可跳过、每步产物可对比。
-![图 3 · Ingest 八步流水线 + 扇出效应](images/18-fig3-ingest-pipeline.png)
+![图 3 · Ingest 八步流水线 + 扇出效应](../images/18-fig3-ingest-pipeline.png)
 
-![k21 · 00:08:20　扇出：1 篇源 → 8 个页面](images/19-k21_00-08-20.jpg)
+![k21 · 00:08:20　扇出：1 篇源 → 8 个页面](../images/19-k21_00-08-20.jpg)
 
 *▲ 视频原帧 k21 · 00:08:20　扇出：1 篇源 → 8 个页面*
 
-![k22 · 00:08:39　八步流水线的完整函数名与分工](images/20-k22_00-08-39.jpg)
+![k22 · 00:08:39　八步流水线的完整函数名与分工](../images/20-k22_00-08-39.jpg)
 
 *▲ 视频原帧 k22 · 00:08:39　八步流水线的完整函数名与分工*
 
@@ -488,7 +488,7 @@ new-source.md (新建)
 ## 7. 四个动作让 Wiki 活起来
 
 **Ingest 只是入口。** 让 Wiki 真正活起来的是四个动作：**Query / Save / Lint / Research**（其中 Save 最重要）。
-![图 4 · 四件事让 Wiki 活起来](images/21-fig4-four-actions.png)
+![图 4 · 四件事让 Wiki 活起来](../images/21-fig4-four-actions.png)
 
 
 ### 7.1 ACTION 1 — Query：查的不是原始文档堆，而是编译结果
@@ -504,7 +504,7 @@ new-source.md (新建)
 | 5 | answer + cite | **答案 = 结论 + 溯源** |
 
 > 不是搜 raw，是读 wiki —— 答案自带溯源链路。
-![k25 · 00:09:30　Query 五步：hot.md → index.md → 只读必要页 → 混合检索 → answer+cite](images/22-k25_00-09-30.jpg)
+![k25 · 00:09:30　Query 五步：hot.md → index.md → 只读必要页 → 混合检索 → answer+cite](../images/22-k25_00-09-30.jpg)
 
 *▲ 视频原帧 k25 · 00:09:30　Query 五步：hot.md → index.md → 只读必要页 → 混合检索 → answer+cite*
 
@@ -532,7 +532,7 @@ CHAT：一次对话（"RAG 和 LLM Wiki 到底什么关系？"）
 判定标准：**这段对话的结论，三个月后还有人会问吗？** 会 → 结晶；不会 → 留在对话里。
 
 这是"聊天不留资产"问题的正面解法，也是 Wiki 越用越值钱的唯一机制。
-![k26 · 00:09:51　Save 结晶：把一次对话的综合结论写成 Synthesis 新页面](images/23-k26_00-09-51.jpg)
+![k26 · 00:09:51　Save 结晶：把一次对话的综合结论写成 Synthesis 新页面](../images/23-k26_00-09-51.jpg)
 
 *▲ 视频原帧 k26 · 00:09:51　Save 结晶：把一次对话的综合结论写成 Synthesis 新页面*
 
@@ -545,11 +545,11 @@ CHAT：一次对话（"RAG 和 LLM Wiki 到底什么关系？"）
 | **LAYER 2 语义性** | 陈旧声明、冲突结论、可疑推断 | LLM 判断（lint.py） | 贵，定时跑（每日/每周） |
 
 **Layer 1 的实现（可直接抄）**
-![k27 · 00:10:18　Lint 两层：结构性（不调 LLM，便宜离线）+ 语义性（调 LLM，贵，择时）](images/24-k27_00-10-18.jpg)
+![k27 · 00:10:18　Lint 两层：结构性（不调 LLM，便宜离线）+ 语义性（调 LLM，贵，择时）](../images/24-k27_00-10-18.jpg)
 
 *▲ 视频原帧 k27 · 00:10:18　Lint 两层：结构性（不调 LLM，便宜离线）+ 语义性（调 LLM，贵，择时）*
 
-![k28 · 00:10:42　Research：Topic → Dispatch → Write-back，由 Graph Insights 触发](images/25-k28_00-10-42.jpg)
+![k28 · 00:10:42　Research：Topic → Dispatch → Write-back，由 Graph Insights 触发](../images/25-k28_00-10-42.jpg)
 
 *▲ 视频原帧 k28 · 00:10:42　Research：Topic → Dispatch → Write-back，由 Graph Insights 触发*
 
@@ -637,7 +637,7 @@ top = rrf([bm25_results, vector_results, graph_results])
 ```
 
 RRF 的好处：不需要调权重、对不同分数量纲鲁棒、实现十行内。
-![k33 · 00:12:22　三路信号融合：BM25 + vector + graph，用 RRF 合并](images/26-k33_00-12-22.jpg)
+![k33 · 00:12:22　三路信号融合：BM25 + vector + graph，用 RRF 合并](../images/26-k33_00-12-22.jpg)
 
 *▲ 视频原帧 k33 · 00:12:22　三路信号融合：BM25 + vector + graph，用 RRF 合并*
 
@@ -655,7 +655,7 @@ GraphRAG-Bench 的冷静结论：
 
 > **不是越复杂越好，按任务类型选架构。**
 > 一上来就建图，很可能在 80% 的查询上花掉 3 倍成本换来更差的答案。
-![k34 · 00:12:56　GraphRAG-Bench：多跳/跨实体/全局综合 GraphRAG 胜，单跳事实 vanilla RAG 反而更简洁](images/27-k34_00-12-56.jpg)
+![k34 · 00:12:56　GraphRAG-Bench：多跳/跨实体/全局综合 GraphRAG 胜，单跳事实 vanilla RAG 反而更简洁](../images/27-k34_00-12-56.jpg)
 
 *▲ 视频原帧 k34 · 00:12:56　GraphRAG-Bench：多跳/跨实体/全局综合 GraphRAG 胜，单跳事实 vanilla RAG 反而更简洁*
 
@@ -675,9 +675,9 @@ GraphRAG-Bench 的冷静结论：
 "综述当前开源 RLHF 生态"               → topic synthesis → LLM Wiki 综合页
 ```
 
-![图 5 · 按查询类型路由（Adaptive RAG）](images/28-fig5-routing.png)
+![图 5 · 按查询类型路由（Adaptive RAG）](../images/28-fig5-routing.png)
 
-![k35 · 00:13:09　Query Classifier：用 hop_count / entity_breadth / scope 判断走哪条管线](images/29-k35_00-13-09.jpg)
+![k35 · 00:13:09　Query Classifier：用 hop_count / entity_breadth / scope 判断走哪条管线](../images/29-k35_00-13-09.jpg)
 
 *▲ 视频原帧 k35 · 00:13:09　Query Classifier：用 hop_count / entity_breadth / scope 判断走哪条管线*
 
@@ -736,13 +736,13 @@ confidence
 1. **不物理删除**（删除就丢了"曾经这么认为"的审计价值）
 2. **旧版本标 SUPERSEDED，但保留可查**
 3. **长时间没被重新验证的，自动降权**
-![图 6 · 生命周期降权曲线 + 健康度五指标](images/30-fig6-lifecycle-health.png)
+![图 6 · 生命周期降权曲线 + 健康度五指标](../images/30-fig6-lifecycle-health.png)
 
-![k43 · 00:15:06　三条曲线：verified 保持高位 / stale 缓慢下降 / superseded 急速降权](images/31-k43_00-15-06.jpg)
+![k43 · 00:15:06　三条曲线：verified 保持高位 / stale 缓慢下降 / superseded 急速降权](../images/31-k43_00-15-06.jpg)
 
 *▲ 视频原帧 k43 · 00:15:06　三条曲线：verified 保持高位 / stale 缓慢下降 / superseded 急速降权*
 
-![k44 · 00:15:35　健康度五指标：78% / 92% / 65% / 34% / 12%](images/32-k44_00-15-35.jpg)
+![k44 · 00:15:35　健康度五指标：78% / 92% / 65% / 34% / 12%](../images/32-k44_00-15-35.jpg)
 
 *▲ 视频原帧 k44 · 00:15:35　健康度五指标：78% / 92% / 65% / 34% / 12%*
 
@@ -776,7 +776,7 @@ page v3  2026-04  当前事实     → CURRENT, supersedes: [page-v1, page-v2]
 
 > **危险的不是"有矛盾"，而是旧信息以当前事实的姿态存在。**
 > **难点不是生成，是治理。**
-![k45 · 00:15:56　confidence + supersession：v1 原始事实 → v2 中间版本 STALE → v3 当前事实 CURRENT](images/33-k45_00-15-56.jpg)
+![k45 · 00:15:56　confidence + supersession：v1 原始事实 → v2 中间版本 STALE → v3 当前事实 CURRENT](../images/33-k45_00-15-56.jpg)
 
 *▲ 视频原帧 k45 · 00:15:56　confidence + supersession：v1 原始事实 → v2 中间版本 STALE → v3 当前事实 CURRENT*
 
@@ -795,9 +795,9 @@ LLM ingest 写入/更新页面
             → 一次幻觉保存 = 永远在闭环中自我放大
 ```
 
-![图 7 · 幻觉回写闭环与唯一闸门](images/34-fig7-risk-loop.png)
+![图 7 · 幻觉回写闭环与唯一闸门](../images/34-fig7-risk-loop.png)
 
-![k46 · 00:16:22　幻觉回写的写入闭环：保存过的页面变成下一次的"事实"](images/35-k46_00-16-22.jpg)
+![k46 · 00:16:22　幻觉回写的写入闭环：保存过的页面变成下一次的"事实"](../images/35-k46_00-16-22.jpg)
 
 *▲ 视频原帧 k46 · 00:16:22　幻觉回写的写入闭环：保存过的页面变成下一次的"事实"*
 
@@ -828,7 +828,7 @@ LLM ingest 写入/更新页面
 | 定期 Lint | 降低概率，但无法阻断闭环 |
 
 **结论：把"哪些结论需要人签字"设计成流程的一部分，而不是期望提示词写得更好。**
-![k49 · 00:17:28　缓解 vs 根治：高风险声明 → Review Queue → 人审判定 → 才写入](images/36-k49_00-17-28.jpg)
+![k49 · 00:17:28　缓解 vs 根治：高风险声明 → Review Queue → 人审判定 → 才写入](../images/36-k49_00-17-28.jpg)
 
 *▲ 视频原帧 k49 · 00:17:28　缓解 vs 根治：高风险声明 → Review Queue → 人审判定 → 才写入*
 
@@ -881,7 +881,7 @@ LLM ingest 写入/更新页面
 | Log | 审计轨迹 Audit Trail |
 
 > **聊天是入口，Wiki 才是产品 —— 一个会越用越值钱的知识运行时。**
-![k53 · 00:18:50　角色定位：LLM=编译器 · Chat=入口 · Wiki=产品 · Graph=导航 · Schema=OS · Review=刹车 · Log=审计](images/37-k53_00-18-50.jpg)
+![k53 · 00:18:50　角色定位：LLM=编译器 · Chat=入口 · Wiki=产品 · Graph=导航 · Schema=OS · Review=刹车 · Log=审计](../images/37-k53_00-18-50.jpg)
 
 *▲ 视频原帧 k53 · 00:18:50　角色定位：LLM=编译器 · Chat=入口 · Wiki=产品 · Graph=导航 · Schema=OS · Review=刹车 · Log=审计*
 
